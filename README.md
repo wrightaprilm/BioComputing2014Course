@@ -4,9 +4,11 @@
 ================
 
 
-##Welcome, Welcome!
+###Welcome, Welcome!
 
 We'll use this page to keep in contact with the students of this course. Right now, all we have are some install documents!
+
+If you are planning on taking the course, please [install the needed software](https://github.com/wrightaprilm/BioComputing2014/blob/master/install.md)
 
 |Date | Topics | Instructor | 
 |-----|-----|-----|
