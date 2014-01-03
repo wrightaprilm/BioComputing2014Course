@@ -1,4 +1,5 @@
-# BioComputing 2014: Course Materials for the BioComputing Spring 2014 session
+# BioComputing 2014: 
+##Course Materials for the BioComputing Spring 2014 session
 
 ================
 
