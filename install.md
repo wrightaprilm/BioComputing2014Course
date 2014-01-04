@@ -145,5 +145,5 @@ If you do a new install of Python or git, it is helpful to close down your termi
 
 ##Installing R
 
-Later in the semester we will spend a few days with the R language. You can download [R] (http://http://cran.rstudio.com/) as well as a popular [IDE] (http://www.rstudio.com/ide/download/). If you don't want to download R right away, you can try it out with this [web based interpreter] (http://www.r-fiddle.org/#/). This will allow you to try out R, but you might not be able to use external packages and libraries, which might be required for the topics that are covered. 
+Later in the semester we will spend a few days with the R language. You can download [R] (http://cran.rstudio.com/) as well as a popular [IDE] (http://www.rstudio.com/ide/download/). If you don't want to download R right away, you can try it out with this [web based interpreter] (http://www.r-fiddle.org/#/). This will allow you to try out R, but you might not be able to use external packages and libraries, which might be required for the topics that are covered. 
 
