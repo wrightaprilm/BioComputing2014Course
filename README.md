@@ -12,7 +12,7 @@ If you are planning on taking the course, please [install the needed software](h
 
 |Date | Topics | Instructor | 
 |-----|-----|-----|
-|1.24.2014	| Intro and basics of Unix 	|April or Ben |	
+|1.24.2014	| Intro and basics of [Unix](https://github.com/wrightaprilm/BioComputing2014/tree/master/lesson_1) 	|April or Ben |	
 |1.31.2014	| Intro to Python: Variables and Control flow | April or Ben |	
 |2.7.2014	| Python II: Parsing In and Output	|	April or Ben |
 |2.14.2014	| Python III: Scripting and Functions 	|April or Ben|	
