@@ -9,11 +9,11 @@ Our first task is therefore to understand what an object is or can be, and how t
 
 ##References
 
-Python Standard Library: (http://docs.python.org/2/library/index.html)
+[Python Standard Library](http://docs.python.org/2/library/index.html)
 
-The Python Language Reference: (http://docs.python.org/2/reference/)
+[The Python Language Reference](http://docs.python.org/2/reference/)
 
-Stack Overflow: (http://stackoverflow.com/) (Warning: can be snarky, but very helpful)
+[Stack Overflow:](http://stackoverflow.com/) Warning: can be snarky, but very helpful
 
 ## Objects (Ch. 3 of Python Language Reference): An abstraction of data.
 
@@ -30,7 +30,8 @@ what types are built into Python. We have included a hierarchical list of common
 Python types in the type_hierarchy handout. We will only be dealing with a few of these
 this week: Integers, Floats, Strings, and Lists.
 
-|Type Name| Description | Conversion | Assignment
+|Type Name| Description | Conversion | Assignment |
+|--------|-------------|-------------|-----------|
 | Integers| Whole numbers | int() | int = 2 |
 | Floats | Floating point numbers | float() | flt = 2.0 |
 |Strings | Ordered, immutable character set | str() | string = "hello" |
@@ -59,7 +60,8 @@ this week: Integers, Floats, Strings, and Lists.
 Operators are like verbs. They are pretty easy to conceptualize since their meaning in python is not really different from their meaning in math.
 
 ###Common Operators
-
+|Symbol| Meaning| Example |
+|-------|-------|---------|
 |+ | Addition | 3+4=7 |
 | -|  Subtraction | 3-4=1 |
 | * | Multiplication | 4*3=12 |

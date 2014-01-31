@@ -1,4 +1,5 @@
-#Installing Linux (Ubuntu) on a Windows Machine using VirtualBox
+
+#installing Linux (Ubuntu) on a Windows Machine using VirtualBox
 
 Sorry Windows users, you need a whole new machine. Luckily, you can do this for free! This is a guide to making a “virtual computer” on a section of your hard drive on which you will then install a whole new operating system. Having a virtual Ubuntu machine will get you all the Linux/Unix capabilities that we will use in this class. 
 
