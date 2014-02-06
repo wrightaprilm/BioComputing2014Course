@@ -29,7 +29,7 @@ Example:
 
 ```Python
 f = open('filename', 'mode')
-f.open
+f.open()
 ```
 
 ###File Modes
