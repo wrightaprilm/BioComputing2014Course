@@ -88,7 +88,6 @@ for line in line_list:
         print "Uh-oh, this is not a string."
 ```
 
-```
 This works ... But ... Can you see a problem here? Line is a list of strings ... by definition, these will all pass this test. How can we check that they are non-numeric strings? 
 
 
