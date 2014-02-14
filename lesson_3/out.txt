@@ -1,0 +1,1 @@
+I averaged some stuff! It came out to 76 species. I got this number by opening the file, reading it to memory, looping over the species column and averaging it.

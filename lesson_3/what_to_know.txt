@@ -1,0 +1,31 @@
+## "infile" - the csv file used for homework
+##
+## Site,Observations,Species,Expenditure
+## Lake_Creek,4,12,180
+## Los_Alamos,8,340
+## Big_Bend,a,6,280
+## McDonald,5,20,280
+## Balmorrhea,3,3,174
+
+line_list = []
+
+with open(infile) as f:
+	for line in f:
+		line = line.strip().split(',')
+		line_list.append(line)
+		
+expenses = {}
+
+## Try tinkering a bit to answer the questions below
+
+for line in line_list[1:]: # Why skip the first item?
+	expenses[line[0]] = line[-1] # Why use negative indexing?
+	
+for site in expenses:
+	print "Spent %s at %s" % (expenses[site],site)
+
+## Be able to slice and dice data
+
+for line in line_list[1:]:
+	print line[2] # Verbally, what does this loop do? Why must we write the code this way
+
