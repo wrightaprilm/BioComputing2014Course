@@ -8,7 +8,7 @@ First we read in the file.
 
 with open('homework.csv') as f:
     line_list = [line.strip().split(',') for line in f]
-   ...:     
+
 
 print line_list
 
@@ -36,10 +36,10 @@ yay
 yay
 ```
 
-How you solve this is up to you. We'll talk a little about missing data in the future. Maybe you want to open the file and insert a value for the missing value. I inserted a missing data symbol:
+How you solve this is up to you. We'll talk a little about missing data in the future. Maybe you want to open the file and insert a value for the missing value. I set the missing value to zero:
 
 ```python
-line_list[2].insert(2, 'NA')
+line_list[2].insert(2, '0')
 
 line_list
 
