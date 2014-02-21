@@ -16,7 +16,7 @@ If you are planning on taking the course, please [install the needed software](h
 |1.31.2014	| Intro to [Python](https://github.com/wrightaprilm/BioComputing2014/tree/master/lesson_2): Variables and Control flow |Ben |	
 |2.7.2014	| Python II: [Parsing In and Output](https://github.com/wrightaprilm/BioComputing2014/tree/master/lesson_3)	|	April |
 |2.14.2014	| Python III: [Scripting and Functions](https://github.com/wrightaprilm/BioComputing2014/tree/master/lesson_4) |	 Ben|	
-|2.21.2014	| Python IIII: Number Crunching and Plotting 	|April or Ben |	
+|2.21.2014	| Python IIII: [Number Crunching and Plotting](https://github.com/wrightaprilm/BioComputing2014/tree/master/lesson_5) 	|April or Ben |	
 |2.28.2014      | Advanced Topics in Python	| Siavash Mirarab |
 |3.7.2014	|Version Control with Git	| Cheng Lee  |
 |3.14.2014	|Spring Break			| Beer |
