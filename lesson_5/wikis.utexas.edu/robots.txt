@@ -1,0 +1,94 @@
+# Note: this files uses parameters specific to Google, parameters that are not in the robots.txt standard
+# http://www.google.com/support/webmasters/, http://www.robotstxt.org/wc/faq.html and http://en.wikipedia.org/wiki/Robots_Exclusion_Standard were used to research said parameters
+# some links shouldn't show to an anonymous browser such as GAS but are included for completeness
+ 
+# Updated 2007.06.30.09.44
+ 
+User-agent: * # match all bots. The Google Search Appliance (GSA) is our primary crawler but logs indicate there may be others on our Intranet
+Crawl-delay: 5 # per http://en.wikipedia.org/wiki/Robots.txt#Nonstandard_extensions, sets number of seconds to wait between requests to 5 seconds. may not work
+Request-rate: 1/5 # per http://en.wikipedia.org/wiki/Robots.txt#Extended_Standard, maximum rate is one page every 5 seconds. may not work
+# DISABLED FOR NOW Visit-time: 0600-0845 # per http://en.wikipedia.org/wiki/Robots.txt#Extended_Standard, only visit between 6:00 AM and 8:45 AM UT (GMT), may not work
+Disallow: /*?decorator=printable # remove printable version links, non-display URLs
+Disallow: /*javascript* # remove any javascript links, per log analysis
+Disallow: /admin/ # administrator links
+Disallow: /adminstrators.action? # remove any administrator links
+Disallow: /createrssfeed.action? # remove internal RSS links
+# Disallow: /dashboard.action # primary dashboard link
+Disallow: /dashboard.action? # remove secondary dashboard links, not needed for anonymous crawling
+Allow: /display # ensure primary display pages are allowed
+Disallow: /display/*&tasklist.complete= # remove tasklist links
+Disallow: /display/*&tasklist.uncomplete= # remove tasklist links
+Disallow: /display/*?decorator=normal # remove redundant link for standard display
+Disallow: /display/*?decorator=printable # remove printable version links, display URLs
+Disallow: /display/*?focusedCommentId= # remove page comment focus links
+Disallow: /display/*?refresh= # prevent crawler from clicking refresh button
+Disallow: /display/*?replyToComment= # remove reply to comment links
+Disallow: /display/*?rootCommentId= # remove news comment focus links
+Disallow: /display/*?showChildren= # remove the children view links, not needed, anonymous defaults to showing children
+# Disallow: /display/*?showChildren=true # remove show children link - DISABLED for now so crawler can see more "real" pages
+Disallow: /display/*?sortBy= # remove sort by links for pages with embedded attachments, not needed
+Disallow: /display/*showComments= # remove comment links
+Disallow: /display/WikiDevQA/ # remove the DEV Space from being indexed
+Disallow: /doexportpage.action? # remove pdf export links
+Disallow: /dopeopledirectorysearch.action # people search
+Disallow: /dosearchsite.action # remove generic site searches
+Disallow: /dosearchsite.action? # remove specific site searches
+Disallow: /download/attachments/*?version= # knock out previous versions of attachments
+Disallow: /download/userResources/ # knock out user resource links, per log analysis
+Disallow: /download/resources/ # knock out resource links, per log analysis
+Disallow: /dwr/ # knock out DWR links, per log analysis and http://getahead.org/dwr/
+Disallow: /exportword? # remove word export links
+Disallow: /form-mail-plugin/ # remove form mail links
+Disallow: /label/ # remove all label links, per vendor analysis
+Disallow: /labels/ # remove all label links, per vendor analysis
+Disallow: /labels-javascript # remove label javascript
+Allow: /labels/listlabels-alphaview.action # allow label index page
+Disallow: /login.action # remove the login page
+Disallow: /login.action? # remove the login page derivatives
+# Next line, 35, will be enabled when line after, 36, is removed
+# Allow: /pages/viewpage.action?* # allows indexing of pages with invalid titles for html (such as ?'s). Unfortunately currently allows page history to sneak in
+Disallow: /pages/ # this line to purge GSA of all old page entries, _may_ eventually be removed so that specific /pages/ lines below take effect and non-html compatible titled pages can be crawled
+# DISABLED FOR NOW Disallow: /pages/pageinfo.action? # exclude all the previous versions of pages by excluding Page Info pages
+# Disallow: /pages/*?showChildren=true # remove show children link - DISABLED for now so crawler can see more "real" pages
+Disallow: /pages/*&tasklist.complete= # remove tasklist links
+Disallow: /pages/*&tasklist.uncomplete= # remove tasklist links
+Disallow: /pages/*?decorator=normal # remove redundant link for standard display
+Disallow: /pages/*?decorator=printable # remove printable version links, display URLs
+Disallow: /pages/*?focusedCommentId= # remove page comment focus links
+Disallow: /pages/*?refresh= # prevent crawler from clicking refresh button
+Disallow: /pages/*?replyToComment= # remove reply to comment links
+Disallow: /pages/*?rootCommentId= # remove news comment focus links
+Disallow: /pages/*?showChildren=false # remove the don't show children link, not needed, per log analysis
+Disallow: /pages/*?sortBy= # remove sort by links for pages with embedded attachments, not needed
+Disallow: /pages/*showComments= # remove comment links
+Disallow: /pages/copypage.action? # remove copy page links
+Disallow: /pages/createblogpost.action? # remove add news links
+Disallow: /pages/createpage.action? # remove add page links
+Disallow: /pages/diffpages.action? # remove page comparison pages
+Disallow: /pages/diffpagesbyversion.action? # remove page comparison links
+Disallow: /pages/editblogpost.action? # remove edit news links
+Disallow: /pages/editpage.action? # remove edit page links
+Disallow: /pages/removepage.action? # remove the remove page links
+Disallow: /pages/revertpagebacktoversion.action? # remove reversion links
+Disallow: /pages/templates # remove template pages
+Disallow: /pages/templates/ # block template indexes
+Disallow: /pages/viewchangessincelastlogin.action? # remove page comparison pages
+Disallow: /pages/viewpage.action?*&showComments # remove comments links
+Disallow: /pages/viewpage.action?spaceKey= # remove page view links that are "duplicates" of the Display URL pages
+Disallow: /pages/viewpagesrc.action? # remove view page source links
+Disallow: /pages/viewpreviouspageversions.action? # remove the link to previous versions
+Disallow: /plugins/ # blocks plug-in calls
+Disallow: /rpc/ # remove any RPC links
+Disallow: /s/ # remove any links to label calls down this path, per log analysis
+Disallow: /searchsite.action? # remove the wiki search engine pages
+Disallow: /spaces/*&decorator=printable # remove printable version links
+Disallow: /spaces/blogrss.action? # remove rss links
+Disallow: /spaces/listrssfeeds.action? # remove rss links
+Disallow: /spaces/viewmail.action? # remove view mail links (we don't have email integration enabled anyway)
+Disallow: /spaces/viewmailarchive.action? # remove view mail archive links (we don't have email integration enabled anyway)
+Disallow: /spaces/viewthread.action? # remove view mail thread links (we don't have email integration enabled anyway)
+Disallow: /themes/ # theme links
+Disallow: /users/ # remove user action pages
+Disallow: /x/ # remove tiny link urls
+ 
+# End file
