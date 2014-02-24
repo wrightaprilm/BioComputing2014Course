@@ -517,46 +517,55 @@
          transform="matrix(1.4507937,0,0,1.4507937,-113.54014,-156.35014)" />
       <text
          xml:space="preserve"
-         style="font-size:58.03174972999999426px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000f8;fill-opacity:1;stroke:none;font-family:Sans"
-         x="46.810753"
-         y="284.86026"
+         style="font-size:58.03174973px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000f8;fill-opacity:1;stroke:none;font-family:Sans"
+         x="-2.5162325"
+         y="264.54919"
          id="text4020"
          sodipodi:linespacing="125%"><tspan
            sodipodi:role="line"
            id="tspan4022"
-           x="46.810753"
-           y="284.86026"
-           style="font-size:26.11428641999999911px;fill:#0000f8;fill-opacity:1">df.ix['Lake_Creek']</tspan><tspan
+           x="-2.5162325"
+           y="264.54919"
+           style="font-size:26.11428642px;fill:#0000f8;fill-opacity:1">df.ix['Lake_Creek']</tspan><tspan
            sodipodi:role="line"
-           x="46.810753"
-           y="317.50311"
-           style="font-size:26.11428641999999911px;fill:#0000f8;fill-opacity:1"
-           id="tspan4024">Type = object</tspan></text>
+           x="-2.5162325"
+           y="297.19205"
+           style="font-size:26.11428642px;fill:#0000f8;fill-opacity:1"
+           id="tspan4024">dtype = object</tspan><tspan
+           sodipodi:role="line"
+           x="-2.5162325"
+           y="329.8349"
+           style="font-size:26.11428642px;fill:#0000f8;fill-opacity:1"
+           id="tspan3076">Type = series</tspan></text>
       <rect
-         style="opacity:0.98000003999999996;fill:none;fill-opacity:1;stroke:#f82900;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="opacity:0.98000004;fill:none;stroke:#f82900;stroke-width:2.90158749;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          id="rect4026"
-         width="49.122807"
-         height="22.807018"
-         x="493.85965"
-         y="403.23938"
-         transform="matrix(1.4507937,0,0,1.4507937,-113.54014,-156.35014)" />
+         width="71.267059"
+         height="33.08828"
+         x="594.24347"
+         y="396.7496" />
       <text
          xml:space="preserve"
          style="font-size:58.03174591px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000f8;fill-opacity:1;stroke:none;font-family:Sans"
          x="520.0921"
-         y="532.81366"
+         y="521.20721"
          id="text4020-0"
          sodipodi:linespacing="125%"><tspan
            sodipodi:role="line"
            id="tspan4022-0"
            x="520.0921"
-           y="532.81366"
-           style="font-size:26.11428641999999911px;fill:#ff0000;fill-opacity:1">df.ix['Big_Bend'][2]</tspan><tspan
+           y="521.20721"
+           style="font-size:26.11428642px;fill:#ff0000;fill-opacity:1">df.ix['Big_Bend'][2]</tspan><tspan
            sodipodi:role="line"
            x="520.0921"
-           y="565.45654"
-           style="font-size:26.11428641999999911px;fill:#ff0000;fill-opacity:1"
-           id="tspan4024-3">Type = float64</tspan></text>
+           y="553.8501"
+           style="font-size:26.11428642px;fill:#ff0000;fill-opacity:1"
+           id="tspan4024-3">Type = float64</tspan><tspan
+           sodipodi:role="line"
+           x="520.0921"
+           y="586.49292"
+           style="font-size:26.11428642px;fill:#ff0000;fill-opacity:1"
+           id="tspan3078" /></text>
     </g>
   </g>
 </svg>
