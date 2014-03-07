@@ -17,7 +17,7 @@ If you are planning on taking the course, please [install the needed software](h
 |2.7.2014	| Python II: [Parsing In and Output](https://github.com/wrightaprilm/BioComputing2014/tree/master/lesson_3)	|	April |
 |2.14.2014	| Python III: [Scripting and Functions](https://github.com/wrightaprilm/BioComputing2014/tree/master/lesson_4) |	 Ben|	
 |2.21.2014	| Python IIII: [Number Crunching and Plotting](https://github.com/wrightaprilm/BioComputing2014/tree/master/lesson_5) 	|April |	
-|2.28.2014      | Advanced Topics in Python	| Siavash Mirarab |
+|2.28.2014      | Advanced Topics in [Python](https://github.com/wrightaprilm/BioComputing2014/tree/master/session_6)	| Siavash Mirarab |
 |3.7.2014	|Version Control with Git	| Cheng Lee  |
 |3.14.2014	|Spring Break			| Beer |
 |3.21.2014	|Audience-Determined Topics	| You Tell us!|
