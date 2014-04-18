@@ -1,0 +1,10 @@
+Using knitr to make dynamic documents
+==================
+
+Now we embed code in a special syntax, which sends it to an R process, and the output is shown in the document.
+
+```{r}
+x<-rnorm(1000)
+hist(x)
+rug(x)
+```{r}

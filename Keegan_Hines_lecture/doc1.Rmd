@@ -1,0 +1,12 @@
+Title
+====
+This is an R markdown document.
+Essentially identical to the markdown you *already* know.
+We can represent chunks of code
+```
+x<-rnorm(100)
+hist(x)
+```
+
+And we can embed images
+![](./image.png)

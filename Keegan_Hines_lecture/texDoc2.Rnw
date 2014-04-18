@@ -1,0 +1,24 @@
+\documentclass{article} 
+\usepackage{graphicx}
+
+\title{Good Lookin Document}
+\author{Keegan}
+
+\begin{document}
+\maketitle
+
+Here is some text. Let us not forgot to use some equations.
+
+\[
+p(\theta|y_n) \propto \prod_{i=1}^N \theta^{k} (1-\theta)^{N-k}
+\]
+
+With knitr, we send some code off to an R process in order to generate the figure.
+
+<<FigureName,fig.width=4,fig.height=4>>=
+x<-rnorm(1000)
+hist(x)
+@
+
+
+\end{document}
