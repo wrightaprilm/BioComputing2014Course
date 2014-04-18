@@ -24,7 +24,7 @@ If you are planning on taking the course, please [install the needed software](h
 |3.28.2014	|R basics and Visualization	| Laura Crothers and Sean Maguire |
 |4.4.2014	|Regular Expressions for text processing	| Scott Hunicke-Smith |
 |4.11.2014	|SQL databasing			| Anna Battenhouse |
-|4.18.2014	|Numerical Methods in R		| Keegan Hines |
+|4.18.2014	|[Advanced R](https://github.com/wrightaprilm/BioComputing2014/tree/master/Keegan_Hines_lecture)| Keegan Hines |
 |4.24.2014	|TACC	 			| |
 |5.2.2014	| Local BLAST			| Alejandro Caro |
 |5.9.2014	| Unit Testing and Code Correctness	| Jeff Hussmann |
