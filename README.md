@@ -25,8 +25,8 @@ If you are planning on taking the course, please [install the needed software](h
 |4.4.2014	|[Regular Expressions for text processing](https://wikis.utexas.edu/display/CCBB/Unix+for+fast+text+processing)	| Scott Hunicke-Smith |
 |4.11.2014	|[SQL databasing](https://wikis.utexas.edu/display/CCBB/Anna+Battenhouse%3A+Databasing)	| Anna Battenhouse |
 |4.18.2014	|[Advanced R](https://github.com/wrightaprilm/BioComputing2014/tree/master/Keegan_Hines_lecture)| Keegan Hines |
-|4.24.2014	|TACC	 			| |
-|5.2.2014	| Local BLAST			| Alejandro Caro |
-|5.9.2014	| Unit Testing and Code Correctness	| Jeff Hussmann |
+|4.24.2014	|[TACC](https://github.com/wrightaprilm/BioComputing2014/tree/master/Tacc)		| Benni Goetz |
+|5.2.2014	| [Local BLAST](https://github.com/wrightaprilm/BioComputing2014/tree/master/AlejandroCaroLecture)	| Alejandro Caro |
+|5.9.2014	| [Unit Testing and Code Hygeine](https://github.com/wrightaprilm/BioComputing2014/tree/master/testing)	| April Wright |
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
